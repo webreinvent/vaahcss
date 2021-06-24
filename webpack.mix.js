@@ -3,7 +3,14 @@ const fs = require('fs');
 const fs_extra = require('fs-extra');
 
 mix.setPublicPath('./css');
-mix.sass('./scss/vaahcss.scss', './css');
+
+if (mix.inProduction()) {
+    mix.sass('./scss/vaahcss.scss', './css/vaahcss.min.css');
+} else{
+    mix.sass('./scss/vaahcss.scss', './css');
+}
+
+
 
 
 mix.webpackConfig({
