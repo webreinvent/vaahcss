@@ -1,0 +1,50 @@
+//------- Responsiveness
+$gap: 32px !default;
+
+$mobile: 769px !default;
+
+$tablet: 769px !default;
+
+$desktop: 960px + 2 * $gap !default;
+
+$widescreen: 1152px + 2 * $gap !default;
+
+$fullhd: 1344px + 2 * $gap !default;
+
+
+$screens: ('mobile': $mobile, 'tablet': $tablet, 'widescreen': $widescreen, 'fullhd': $fullhd);
+
+//------- range
+$range_small: ('min': 0, 'max': 10, 'steps': 1);
+$range_medium: ('min': 10, 'max': 100, 'steps': 5);
+$range_large: ('min': 100, 'max': 500, 'steps': 50);
+
+$range: ('small': $range_small, 'medium': $range_medium, 'large':$range_large);
+//$range: ('small': $range_small);
+//$range: ('medium': $range_medium);
+//$range: ('large': $range_large);
+
+//------- spacing
+
+$spacing: ('padding': 'p', 'margin': 'm',);
+
+
+//------- direction
+
+$directions: ("top": "t", "right": "r", "bottom": "b", "left": "l");
+
+
+
+//------- properties
+
+$properties: ('border': 'b', 'font': 'font', 'radius': 'r');
+
+
+//------- z-index
+
+$z_index: ('z-index': 'zi');
+
+
+//------- $opacity
+
+$opacity: ('opacity': 'op');
