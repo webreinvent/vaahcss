@@ -1,3 +1,5 @@
+
+
 //------- Responsiveness
 $gap: 32px !default;
 
@@ -20,9 +22,6 @@ $range_medium: ('min': 10, 'max': 100, 'steps': 5);
 $range_large: ('min': 100, 'max': 500, 'steps': 50);
 
 $range: ('small': $range_small, 'medium': $range_medium, 'large':$range_large);
-//$range: ('small': $range_small);
-//$range: ('medium': $range_medium);
-//$range: ('large': $range_large);
 
 //------- spacing
 

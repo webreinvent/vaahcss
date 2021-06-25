@@ -7,20 +7,15 @@ $min: null;
 $max: null;
 $steps: null;
 
-//------------margins
+//------------spacing
 
 @each $spacing_key, $spacing_value in $spacing
 {
-
-
-
   @each $range_key, $range_value in $range {
 
     $min: valueFromArray($range_value, 'min');
     $max: valueFromArray($range_value, 'max');
     $steps: valueFromArray($range_value, 'steps');
-
-
 
     @while $min <= $max {
       .#{$spacing_value}-#{$min}{
@@ -33,7 +28,6 @@ $steps: null;
           #{$spacing_key}-#{$directions_key}: #{$min}px;
         }
       }
-
 
       $min: $min + $steps;
     }

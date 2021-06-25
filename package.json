@@ -1,7 +1,8 @@
 {
   "name": "vaahcss",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CSS Helper Classes",
+  "jsdelivr": "./css/vsshcss.min.css",
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js  --config=node_modules/laravel-mix/setup/webpack.config.js",
