@@ -24,18 +24,13 @@ $steps: null;
 
       @each $directions_key, $directions_value in $directions
       {
-        .#{$spacing_value}#{$directions_value}-#{$min}{
-          #{$spacing_key}-#{$directions_key}: #{$min}px;
+        .#{$spacing_value}-#{$directions_value}-#{$min}{
+          #{$spacing_key}-#{$directions_key}: #{$min}px !important;
         }
       }
 
       $min: $min + $steps;
     }
-
-
-
-
-
 
 
   }

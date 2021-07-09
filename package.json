@@ -1,6 +1,6 @@
 {
   "name": "vaahcss",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "CSS Helper Classes",
   "jsdelivr": "./css/vsshcss.min.css",
   "scripts": {
