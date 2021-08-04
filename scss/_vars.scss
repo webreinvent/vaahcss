@@ -32,9 +32,14 @@ $spacing: ('padding': 'pd', 'margin': 'mr',);
 
 $directions: ("top": "t", "right": "r", "bottom": "b", "left": "l");
 
+$directions_top_bottom: ("top": "t", "bottom": "b");
+
+$directions_left_right: ("right": "r", "left": "l");
+
 
 
 //------- properties
+
 
 $properties: ('border': 'br', 'font': 'font', 'radius': 'rd');
 
