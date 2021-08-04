@@ -38,3 +38,63 @@ $steps: null;
 
 }
 
+//------------properties
+
+$min: 0;
+$max: 10;
+$steps: 1;
+
+
+@while $min <= $max {
+
+  .radius-#{$min}{
+    border-radius: #{$min}px;
+  }
+
+  @each $directions_tb_key, $directions_tb_value in $directions_top_bottom
+  {
+    @each $directions_lr_key, $directions_lr_value in $directions_left_right
+    {
+      .radius-#{$directions_tb_value}-#{$directions_lr_value}-#{$min}{
+        border-#{$directions_tb_key}-#{$directions_lr_key}-radius: #{$min}px !important;
+      }
+    }
+
+  }
+  $min: $min + $steps;
+}
+
+
+$min: 15;
+$max: 50;
+$steps: 5;
+
+
+@while $min <= $max {
+
+  .radius-#{$min}{
+    border-radius: #{$min}px;
+  }
+
+  @each $directions_tb_key, $directions_tb_value in $directions_top_bottom
+  {
+    @each $directions_lr_key, $directions_lr_value in $directions_left_right
+    {
+      .radius-#{$directions_tb_value}-#{$directions_lr_value}-#{$min}{
+        border-#{$directions_tb_key}-#{$directions_lr_key}-radius: #{$min}px !important;
+      }
+    }
+
+  }
+  $min: $min + $steps;
+}
+
+
+//------------auto
+
+@each $directions_lr_key, $directions_lr_value in $directions_left_right
+{
+  .mr-#{$directions_lr_value}-auto{
+    margin-#{$directions_lr_key}: auto !important;
+  }
+}
