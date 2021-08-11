@@ -24,7 +24,7 @@ https://purge.jsdelivr.net/npm/vaahcss@latest/css/vaahcss.min.css
 ```
 
 ```shell
-https://cdn.jsdelivr.net/npm/vaahcss@0.0.5/css/vaahcss.min.css
+https://cdn.jsdelivr.net/npm/vaahcss@latest/css/vaahcss.min.css
 ```
 
 
