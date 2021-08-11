@@ -14,7 +14,7 @@ https://purge.jsdelivr.net/npm/vaahcss@latest/css/vaahcss.css
 
 
 
-#### Hit following url to force latest changes
+#### Hit following url to force the latest changes
 ```html
 https://purge.jsdelivr.net/npm/vaahcss@latest/css/vaahcss.min.css
 ```
@@ -23,4 +23,12 @@ https://purge.jsdelivr.net/npm/vaahcss@latest/css/vaahcss.min.css
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vaahcss@latest/css/vaahcss.min.css" />
 ```
 
+```shell
+https://cdn.jsdelivr.net/npm/vaahcss@0.0.5/css/vaahcss.min.css
+```
+
+
 - CDN link: https://www.jsdelivr.com/
+
+
+
