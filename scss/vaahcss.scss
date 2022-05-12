@@ -98,3 +98,13 @@ $steps: 5;
     margin-#{$directions_lr_key}: auto !important;
   }
 }
+
+
+
+//-------Tooltip Content Paddingless
+
+.tooltip-content-paddingless {
+  > .tooltip-content{
+    padding: 0 !important;
+  }
+}

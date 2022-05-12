@@ -1945,3 +1945,7 @@
 .mr-l-auto {
   margin-left: auto !important;
 }
+
+.tooltip-content-paddingless > .tooltip-content {
+  padding: 0 !important;
+}
