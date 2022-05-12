@@ -11,7 +11,12 @@ if (mix.inProduction()) {
 }
 
 
-
+mix.options({
+    hmrOptions: {
+        host: 'localhost',
+        port: 8080,
+},
+});
 
 mix.webpackConfig({
     watchOptions: {
