@@ -19,7 +19,7 @@ $steps: null;
 
     @while $min <= $max {
       .#{$spacing_value}-#{$min}{
-        #{$spacing_key}: #{$min}px;
+        #{$spacing_key}: #{$min}px !important;
       }
 
       @each $directions_key, $directions_value in $directions
@@ -48,7 +48,7 @@ $steps: 1;
 @while $min <= $max {
 
   .radius-#{$min}{
-    border-radius: #{$min}px;
+    border-radius: #{$min}px !important;
   }
 
   @each $directions_tb_key, $directions_tb_value in $directions_top_bottom
@@ -73,7 +73,7 @@ $steps: 5;
 @while $min <= $max {
 
   .radius-#{$min}{
-    border-radius: #{$min}px;
+    border-radius: #{$min}px !important;
   }
 
   @each $directions_tb_key, $directions_tb_value in $directions_top_bottom
